@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="168dp"
+        android:onClick="clickOnRedButton"
+        android:text="@string/color_red"
+        app:layout_constraintBottom_toTopOf="@+id/buttonYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/buttonYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="48dp"
+        android:background="@color/colorYellow"
+        android:onClick="clickOnYellowButton"
+        android:text="@string/color_yellow"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGreen"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="424dp"
+        android:onClick="clickOnGreenButton"
+        android:text="@string/color_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
