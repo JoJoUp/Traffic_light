@@ -15,6 +15,8 @@
         android:layout_marginTop="223dp"
         android:layout_marginEnd="168dp"
         android:onClick="clickOnRedButton"
+        android:background="@color/background"
+        android:textColor="@color/textColor"
         android:text="@string/color_red"
         app:layout_constraintBottom_toTopOf="@+id/buttonYellow"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,8 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="168dp"
         android:layout_marginBottom="48dp"
-        android:background="@color/colorYellow"
+        android:background="@color/background"
         android:onClick="clickOnYellowButton"
+        android:textColor="@color/textColor"
         android:text="@string/color_yellow"
         app:layout_constraintBottom_toTopOf="@+id/buttonGreen"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -40,6 +43,8 @@
         android:layout_marginStart="152dp"
         android:layout_marginTop="424dp"
         android:onClick="clickOnGreenButton"
+        android:background="@color/background"
+        android:textColor="@color/textColor"
         android:text="@string/color_green"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

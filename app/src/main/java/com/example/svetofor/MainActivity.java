@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 
 
-
 public class MainActivity extends AppCompatActivity {
     ConstraintLayout myConstraintLayout;
 
@@ -21,10 +20,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void clickOnYellowButton (View view){
+    public void clickOnYellowButton(View view) {
         myConstraintLayout.setBackgroundColor(getResources().getColor(R.color.colorYellow));
     }
-    public void clickOnGreenButton (View view){
+
+    public void clickOnGreenButton(View view) {
         myConstraintLayout.setBackgroundColor(getResources().getColor(R.color.colorGreen));
     }
 
